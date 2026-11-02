@@ -1,0 +1,59 @@
+# ==============================================================================
+# MedTwin AI - .gitignore
+# ==============================================================================
+
+# --- Datasets (Raw MRI Volumes) ---
+Dataset/
+*.nii
+*.nii.gz
+
+# --- Unpublished Research & Submission ---
+research_paper/
+submission_corrections_response.txt
+
+# --- Training & Preprocessing Persistent Cache ---
+outputs/persistent_cache/
+.cache/
+
+# --- Virtual Environments & Dependencies ---
+.venv/
+venv/
+env/
+ENV/
+node_modules/
+
+# --- Python Bytecode & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+
+# --- Application Runtime Data & Local Logs ---
+medtwin_app/data/
+medtwin_app/certs/
+*.log
+*.sqlite3
+
+# --- Sensitive Files & Credentials ---
+login.txt
+*.env
+*.pem
+*.key
+*.crt
+
+# --- OS & IDE Metadata ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- Agent / Temporary Configs ---
+.claude/
+.gemini/

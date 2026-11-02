@@ -1,0 +1,25 @@
+{
+  "file": "C:\\Users\\admin\\Desktop\\Med_Twin\\Dataset\\ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData\\BraTS-GLI-00000-000\\BraTS-GLI-00000-000-t1c.nii.gz",
+  "format": "NIfTI",
+  "shape": [
+    240,
+    240,
+    155
+  ],
+  "voxel_spacing_mm": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "dtype": "int16",
+  "min_intensity": 0.0,
+  "max_intensity": 12343.0,
+  "mean_intensity": 345.5059033378136,
+  "median_intensity": 0.0,
+  "mask_available": true,
+  "mask_path": "C:\\Users\\admin\\Desktop\\Med_Twin\\Dataset\\ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData\\BraTS-GLI-00000-000\\BraTS-GLI-00000-000-seg.nii.gz",
+  "mask_voxel_count": 57305,
+  "voxel_volume_mm3": 1.0,
+  "mask_volume_mm3_preliminary": 57305.0,
+  "generated_at": "2026-08-20T18:30:07"
+}

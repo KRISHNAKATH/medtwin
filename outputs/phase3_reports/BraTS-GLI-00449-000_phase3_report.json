@@ -1,0 +1,137 @@
+{
+  "patient_id": "BraTS-GLI-00449-000",
+  "generated_at": "2026-08-24T14:55:08",
+  "ground_truth_available": true,
+  "single_patient_sanity_check": {
+    "dice": 0.8766633868217468,
+    "iou": 0.7827532887458801
+  },
+  "localization": [
+    {
+      "label": 1,
+      "name": "necrotic_core",
+      "present": true,
+      "voxel_count": 23619,
+      "bbox_min_voxel": [
+        21,
+        79,
+        51
+      ],
+      "bbox_max_voxel": [
+        90,
+        134,
+        96
+      ],
+      "centroid_voxel": [
+        41.9,
+        107.4,
+        75.1
+      ],
+      "centroid_mm": [
+        -147.1,
+        137.4,
+        75.1
+      ],
+      "coarse_position": "right, posterior, inferior"
+    },
+    {
+      "label": 2,
+      "name": "edema",
+      "present": true,
+      "voxel_count": 152501,
+      "bbox_min_voxel": [
+        12,
+        17,
+        29
+      ],
+      "bbox_max_voxel": [
+        109,
+        157,
+        130
+      ],
+      "centroid_voxel": [
+        58.0,
+        115.2,
+        83.7
+      ],
+      "centroid_mm": [
+        -131.0,
+        145.2,
+        83.7
+      ],
+      "coarse_position": "right, posterior, inferior"
+    },
+    {
+      "label": 3,
+      "name": "enhancing_tumor",
+      "present": true,
+      "voxel_count": 50817,
+      "bbox_min_voxel": [
+        19,
+        77,
+        46
+      ],
+      "bbox_max_voxel": [
+        93,
+        141,
+        99
+      ],
+      "centroid_voxel": [
+        47.9,
+        107.9,
+        74.4
+      ],
+      "centroid_mm": [
+        -141.1,
+        137.9,
+        74.4
+      ],
+      "coarse_position": "right, posterior, inferior"
+    }
+  ],
+  "volumes": [
+    {
+      "region": "necrotic_core",
+      "label": 1.0,
+      "voxel_count": 23619,
+      "volume_mm3": 23619.0,
+      "volume_cm3": 23.619
+    },
+    {
+      "region": "edema",
+      "label": 2.0,
+      "voxel_count": 152501,
+      "volume_mm3": 152501.0,
+      "volume_cm3": 152.501
+    },
+    {
+      "region": "enhancing_tumor",
+      "label": 3.0,
+      "voxel_count": 50817,
+      "volume_mm3": 50817.0,
+      "volume_cm3": 50.817
+    },
+    {
+      "region": "whole_tumor (composite)",
+      "label": NaN,
+      "voxel_count": 226937,
+      "volume_mm3": 226937.0,
+      "volume_cm3": 226.937
+    },
+    {
+      "region": "tumor_core (composite)",
+      "label": NaN,
+      "voxel_count": 74436,
+      "volume_mm3": 74436.0,
+      "volume_cm3": 74.436
+    },
+    {
+      "region": "enhancing_tumor_only (composite)",
+      "label": NaN,
+      "voxel_count": 50817,
+      "volume_mm3": 50817.0,
+      "volume_cm3": 50.817
+    }
+  ],
+  "disclaimer": "Research prototype output. Predictions, localization, and volumes are model-generated estimates, not clinically validated measurements or diagnoses."
+}

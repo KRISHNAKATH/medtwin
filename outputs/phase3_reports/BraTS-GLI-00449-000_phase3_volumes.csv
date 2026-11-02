@@ -1,0 +1,7 @@
+region,label,voxel_count,volume_mm3,volume_cm3
+necrotic_core,1.0,23619,23619.0,23.619
+edema,2.0,152501,152501.0,152.501
+enhancing_tumor,3.0,50817,50817.0,50.817
+whole_tumor (composite),,226937,226937.0,226.937
+tumor_core (composite),,74436,74436.0,74.436
+enhancing_tumor_only (composite),,50817,50817.0,50.817

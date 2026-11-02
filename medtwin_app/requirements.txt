@@ -1,0 +1,20 @@
+# PyTorch: install the CUDA build that matches your GPU from https://pytorch.org first
+# (CPU-only also works, just slower). Tested with torch 2.6.0+cu124.
+torch>=2.2
+monai>=1.3,<1.7
+nibabel>=5.0
+numpy>=1.26,<2        # system OpenCV/TensorFlow used by MONAI's optional imports need NumPy 1.x
+scipy>=1.11
+scikit-image>=0.22,<0.26
+SimpleITK>=2.3
+trimesh>=4.0,<5
+fast-simplification>=0.1.7
+pillow>=10.0
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+pytest>=8.0
+# Skull stripping. Code Apache-2.0; its weights (downloaded on first use, 114.7 MB) are
+# CC BY-NC 4.0: research and pilots only, not a commercial product.
+hd-bet==2.0.1
+imagecodecs<2025      # keeps nnU-Net's image codecs on NumPy 1.x

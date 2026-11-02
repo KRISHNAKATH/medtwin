@@ -1,0 +1,4 @@
+region,predicted_volume_cm3,ground_truth_volume_cm3,difference_pct,verdict
+edema,152.507,138.519,10.1,Close match
+enhancing_tumor,50.816,64.617,-21.4,Notable difference
+necrotic_core,23.619,17.44,35.4,Notable difference

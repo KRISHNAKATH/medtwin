@@ -1,0 +1,17 @@
+{
+ "scan": "BraTS-GLI-00449-000",
+ "voxels_total": 3317760,
+ "voxels_brain": 1528339,
+ "percent_of_scan": {
+  "background": 93.35,
+  "necrotic core": 0.53,
+  "oedema": 4.18,
+  "enhancing": 1.95
+ },
+ "percent_of_brain": {
+  "background": 85.57,
+  "necrotic core": 1.14,
+  "oedema": 9.06,
+  "enhancing": 4.23
+ }
+}
